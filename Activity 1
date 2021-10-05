@@ -1,0 +1,27 @@
+Identify the different elements in the Java and Python source code snippets below. You may listthem separately according to keywords, identifiers, literals, operators, punctuation and symbols,and comments used.
+1. Java Code Snippet
+// a recursive implementation of Factorial
+
+import java.util.Scanner;
+
+class RecursiveFactorial { public static void main(String[]
+args) {
+
+Scanner input=new Scanner(System.in);
+System.out.print("Find the Factorial of: ");
+int num=input.nextInt();
+System.out.println("Factorial of "+num+" = "+fact(num)); 
+
+
+2. Python Code Snippet
+
+# This program adds two numbers
+
+num1 = 1.5
+num2 = 6.3
+
+# Add two numbers
+sum = num1 + num2
+
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
